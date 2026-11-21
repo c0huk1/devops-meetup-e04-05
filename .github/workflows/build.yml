@@ -11,6 +11,7 @@ jobs:
    environment: Test
    runs-on: team-01
    steps:
+     - uses: actions/setup-node@v7
      - uses: actions/checkout@v7
      - env:
          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
