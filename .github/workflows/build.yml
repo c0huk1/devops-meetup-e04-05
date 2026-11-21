@@ -9,7 +9,7 @@ permissions:
 jobs:
  build:
    environment: Test
-   runs-on: self-hosted
+   runs-on: team-01
    steps:
      - uses: actions/checkout@v7
      - env:
